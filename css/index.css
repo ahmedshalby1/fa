@@ -1,0 +1,126 @@
+body{
+    background-color: white;
+    height: 866px;
+    width: 1670px;
+    
+  }
+  .camera{
+    position: relative;
+    top: -311px;
+    left: 466px;
+    width: 692px;
+    
+  }
+  .description{
+    position: relative;
+    top: 332px;
+    left: 214px;
+    font-size: 46px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+  }
+  .des{
+    max-width: 463px;
+    max-height:300px;
+    position: relative;
+    top: 333px;
+    left: 212px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .price1{
+    position: relative;
+    top: 385px;
+    left: 211px;
+    font-size: 46px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-decoration:line-through;
+    opacity: 0.7;
+    width: 125px;
+  }
+  .price2{
+    position: relative;
+    top: 385px;
+    left: 211px;
+    font-size: 46px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    width: 125px;
+  }
+  .container{
+    position: relative;
+    top: -179px;
+    width: 1301px;
+    height: 844px;
+    z-index: 2;
+  
+  }
+  .styled-button {
+      background-color: pink; 
+      border: none; 
+      color: white; 
+      padding: 10px 20px; 
+      text-align: center; 
+      text-decoration: none; 
+      display: inline-block; 
+      font-size: 16px; 
+      cursor: pointer; 
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    position: relative;
+    top: 461px;
+    left: 207px;
+  }
+  .styled-button:hover {
+      background-color: green; 
+  }
+  .thebrand{
+    position: relative;
+    top: 379px;
+    left: 861px;
+    font-size: 46px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: pink;
+    width: 125px;
+  }
+  .style{
+    position: relative;
+    top: 374px;
+    left: 861px;
+    font-size: 46px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: white;
+    width: 441px;
+  }
+  .free{
+    position: relative;
+    top: 301px;
+    left: 861px;
+    font-size: 46px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: black;
+    width: 310px;
+  }
+  .free .style .thebrand .styled-button .price2 .price1 .description .des{
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+  .sqaure{
+    position: relative;
+    top: -719px;
+  
+    left: 196px;
+    width: 1103px;
+    height: 584px;
+    background-color: #fd9bb0;
+    z-index: 0;
+    border-radius: 31px;
+    box-shadow: 0px 1px 4px 1px black;
+    clip-path: circle(72% at right 35%);
+  
+  }
